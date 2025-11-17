@@ -1,4 +1,9 @@
+Change Log (2025-11-14):
+– Updated edge case it if was under budget, with an input budget as preference. 
+
 ### **Module 3 — Feasibility & Guardrails**
+
+Input Budgets: 1500 USD
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
 
@@ -33,3 +38,6 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
    
    - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+  
+9. **Under-Budget**
+   - If Sum budget < inputed budget - 500, choose activites that with (input budget - 500) < Sum budget < Input budget
