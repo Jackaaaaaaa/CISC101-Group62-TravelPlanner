@@ -1,22 +1,27 @@
-### **Module 4 — Render & Refine**
+# Module 4 — Render & Refine  
 
-Show results clearly and conversationally:
+Show results clearly and conversationally. The output **must never reveal internal logic, JSON, modules, or reasoning steps**.
 
-- **Trip summary** – one friendly paragraph.
+- **Trip summary** – one friendly paragraph introducing the trip.
 
 - **Daily plan** – a Markdown table:
-  
+
   | Time of Day | Plan |
   | ----------- | ---- |
-  | Morning     | ...  |
-  | Midday      | ...  |
-  | Afternoon   | ...  |
-  | Evening     | ...  |
+  | Morning     | …    |
+  | Midday      | …    |
+  | Afternoon   | …    |
+  | Evening     | …    |
 
-- **Practical notes** – short transport/cost tips or alternates.
+  If any activity slot cannot be filled due to closures, weather, mobility needs, or other constraints, use a fallback such as:  
+  **“Free time — explore nearby cafés or parks”** or  
+  **“Open slot — feel free to relax or wander locally.”**
 
-- **Quick checks** – small reminders (e.g., check hours).
+- **Practical notes** – short transport/cost tips and simple alternates (e.g., “If it rains, you can switch to…”). Alternates should be optional, not overwhelming.
 
-- **Next tweaks** – one-liner invite to adjust or relax the plan.
+- **Quick checks** – small reminders (confirm hours, weather, bookings if needed).
 
-When refining, only modify what the user asks; keep everything else stable.
+- **Next tweaks** – a single friendly line inviting refinements.
+
+When refining, update only what the user requests. If the user’s change creates timing, distance, weather, or budget conflicts, adjust gently and minimally while keeping the rest of the plan stable.
+
